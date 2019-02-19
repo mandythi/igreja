@@ -1,0 +1,62 @@
+.photos{cursor:pointer;}
+
+/* Glisse: Overlay */
+#glisse-overlay {
+	background: rgba(0,0,0.3);
+}
+
+#glisse-close {
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	position: fixed;
+	top:40px;
+	right:40px;
+	background-image: url('../images/imgfotos/close.png');
+	background-repeat: no-repeat;
+	background-position: center;
+  }
+
+/* Prev/Next button */
+.glisse-next a{
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: fixed;
+	bottom: 10px;
+	background-image: url('../images/imgfotos/next.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.glisse-prev a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: fixed;
+	bottom: 10px;
+	background-image: url('../images/imgfotos/back.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.glisse-next a {
+	left: 50%;
+	margin-left: 20px;
+}
+
+.glisse-prev a {
+	left: 50%;
+	margin-left: -40px;
+}
+
+/* Legend */
+.glisse-legend {
+	position:fixed;
+	display:block;
+	bottom:10px;
+	right:10px;
+	color:white;
+	background:#000;
+}
+
